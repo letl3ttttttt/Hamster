@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #FF862A;
-    --alto-contraste-fundo: #000000;
+    --rosa-claro: #ffc4e3;
+    --alto-contraste-fundo: #130056;
     --alto-contraste-texto: #ffffff;
-    --alto-contraste-link: #ffd700;
+    --alto-contraste-link: #ff00a6;
 }
 
 body {
@@ -24,13 +24,13 @@ section {
 
 
 .nav-link {
-    color: #CB6D43;
+    color: #a886ff;
     font-weight: 600;
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/4965007.jpg');
+    background-image: url('Winter_white_hamster.png');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -60,7 +60,7 @@ section {
 
 
 .botao-inicio {
-    background-color: var(--laranja-claro);
+    background-color: var(--rosa-claro);
     border-radius: 30px;
     border: none;
     width: 14em;
@@ -70,22 +70,22 @@ section {
 }
 
 .display-4 {
-    text-shadow: -5px 5px var(--laranja-claro);
+    text-shadow: -5px 5px var(--rosa-claro);
 }
 
 
-#tropicalia {
+#Hamsters {
     position: relative;
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/flor.png') top right no-repeat,
+    background: url('Cricetinae_sp.-Pet_hamster_eating.jpg') top right no-repeat,
         url('img/flor-esquerda.png') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
 
-#tropicalia .container {
+#Hamsters .container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -108,12 +108,12 @@ h2 {
 }
 
 .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+    background: url('WW_Hamster_Winter_Coat.jpg') bottom right no-repeat;
     background-size: 180px 180px;
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-image: url('Ceiling_Paper_\(USA\)\,_1900_\(CH_18480497\).jpg');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
@@ -132,7 +132,7 @@ h2 {
 }
 
 .formulario button {
-    background-color: #CB6D43;
+    background-color: #ffb5dd;
     border: none;
     font-weight: bold;
 }
@@ -188,7 +188,7 @@ h2 {
     color: var(--alto-contraste-fundo)
 }
 
-.alto-contraste #tropicalia {
+.alto-contraste #Hamsters {
     background: none;
 }
 
